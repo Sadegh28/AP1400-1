@@ -1,0 +1,119 @@
+@import url("base.css");
+
+img {
+    padding: 0.2%;
+    border: 1px solid white;
+    margin-bottom: 0.4vh;
+    border-radius: 50%;
+    width: calc(100px + 10vw);
+    height: calc(100px + 10vw);
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    padding: 0 15%;
+    margin: 0%;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.link {
+    color: aquamarine;
+    /* border: 1px solid; */
+    border-bottom: 2px solid rgba(0, 0, 0, 0);
+    transition: all 0.4s ease-in-out;
+}
+
+.link:hover,
+.link:focus {
+    color: aqua;
+    border-bottom-color: rgba(255, 255, 255, 0.5);
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+}
+
+.bg-text {
+    height: 100vh;
+    color: white;
+    font-weight: bold;
+    border: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+    margin-top: calc(10vh + 2vw);
+}
+
+
+.card-s {
+    font-family: 'Ubuntu',
+        sans-serif;
+    margin: 2vh 0vh;
+    /* padding-bottom: 30px; */
+    padding: 1vh 2vw;
+    min-height: calc(80px + 13vh);
+    max-height: calc(80px + 13vh);
+    min-width: calc(230px + 11vw);
+    max-width: calc(230px + 11vw);
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    background-size: 300% 100%;
+    color: #eee;
+    border-radius: 20px;
+    background-image: linear-gradient(45deg, #29323c, #485563, #1f6b5ed0, #6c8a71);
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.5);
+    transition: all 0.4s ease-in-out;
+}
+
+.card-s h4 {
+    text-align: center;
+    /* transform: translateY(-50%); */
+    transform: translateY(65%);
+    color: whitesmoke;
+    font-weight: bolder;
+    font-size: x-large;
+    /* position: sticky; */
+    font-size: calc(11px + 0.5vw + 0.4vh);
+    transition: all 0.4s ease-in-out;
+}
+
+
+.card-s p {
+    font-size: calc(5px + 0.4vw + 0.3vh);
+    /* color: white; */
+    color: #00000000;
+    transform: translateY(35%);
+    font-weight: bold;
+    transition: all 0.4s ease-in-out;
+}
+
+.card-s:hover,
+.card-s:focus {
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 1);
+    background-position: 100% 0;
+    outline: none;
+    transition: all 0.4s ease-in-out;
+}
+
+.card-s:hover h4,
+.card-s:focus h4 {
+    color: lightsalmon;
+    transform: translateY(-50%);
+    transition: all 0.4s ease-in-out;
+}
+
+.card-s:hover p,
+.card-s:focus p {
+    color: white;
+    transform: translateY(-20%);
+    transition: all 0.4s ease-in-out;
+}

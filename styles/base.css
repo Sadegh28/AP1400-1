@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins|Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap");
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+@font-face {
+    font-family: IranYekan;
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/IranYekan/eot/iranyekanwebregular(fanum).eot');
+    src: url('../fonts/IranYekan/eot/iranyekanwebregular(fanum).eot?#iefix') format('embedded-opentype'),
+        url('../fonts/IranYekan/woff2/iranyekanwebregular(fanum).woff2') format('woff2'),
+        url('../fonts/IranYekan/woff/iranyekanwebregular(fanum).woff') format('woff'),
+        url('../fonts/IranYekan/ttf/iranyekanwebregular(fanum).ttf') format('truetype');
+}
+
+@font-face {
+    font-family: IranYekan;
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/IranYekan/eot/iranyekanwebbold(fanum).eot');
+    src: url('../fonts/IranYekan/eot/iranyekanwebbold(fanum).eot?#iefix') format('embedded-opentype'),
+        url('../fonts/IranYekan/woff2/iranyekanwebbold(fanum).woff2') format('woff2'),
+        url('../fonts/IranYekan/woff/iranyekanwebbold(fanum).woff') format('woff'),
+        url('../fonts/IranYekan/ttf/iranyekanwebbold(fanum).ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    animation: loading 1.5s forwards;
+
+}
+
+
+@keyframes loading {
+    0% {
+        filter: blur(8px);
+        -webkit-filter: blur(8px);
+    }
+
+    100% {
+        filter: blur(0px);
+        -webkit-filter: blur(0px);
+    }
+}
+
+body,
+html {
+    background: #eee;
+    font-family: 'Comic Sans MS';
+    background-image: url("../images/IMG_8865blur.jpg");
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    width: 50%;
+    color: #333;
+    background-color: #333;
+}
+
+.cursive-font {
+    font-family: "Dancing Script", cursive;
+}
+
+
+.credits h4 {
+    margin-top: 1vh;
+    font-family: 'Comic Sans MS';
+    color: black;
+}
+
+.persian {
+    font-family: 'IranYekan';
+}
+
+.btn-lang {
+    margin-top: 2vh;
+    font-family: 'Ubuntu',
+        sans-serif;
+    font-size: calc(7px + 0.3vw);
+    height: calc(1.5vh + 1.5vw);
+    min-height: calc(25px);
+    max-height: calc(32px);
+    width: calc(20vw);
+    max-width: calc(80px);
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    border: 1px solid white;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+}
+
+.btn-lang:nth-child(1) {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.btn-lang:nth-child(2) {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.btn-lang:focus {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    border: 1px solid white;
+    outline: none;
+}
+
+.btn-lang:hover,
+.btn-lang:active {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    border-color: black;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+}
+
+.btn-lang:disabled {
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    border: white;
+    cursor: not-allowed;
+    opacity: 0.4;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+}

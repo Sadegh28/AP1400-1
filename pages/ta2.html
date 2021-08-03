@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title id="titleTA">loading...</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/ta.css" type="text/css">
+    <script src="../script.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="icon" href="../images/icon.ico">
+</head>
+
+<body>
+    <h2 class="cursive-font" id="1" style="text-align: center;margin-top: 2em;font-size:calc(12px + 0.5vw + 0.5vh);">
+    </h2>
+    <div class="text-center">
+        <div class="btn-group" role="group">
+            <button type="button" id="en" class="btn-lang" onclick="translateToEnglish()"></button>
+            <button type="button" id="per" class="btn-lang" onclick="translateToPersian()"></button>
+        </div>
+    </div>
+    <hr>
+
+
+    <div id="controler" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+                <!--first row-->
+                <div class="row">
+                    <div class="col-sm-4">
+                        <!--kiyan-->
+                        <div class="card box-margin">
+                            <div class="card-liner">
+                                <figure><img src="../images/rezaei.png" alt="Kiyan Rezaee" />
+                                </figure>
+                                <div class="card--social">
+                                    <ul>
+                                        <li class="github"><a href="https://github.com/kiyan-rezaee" target="_blank"><i
+                                                    class="fa fa-github"></i></a></li>
+                                        <li class="linkedin"><a href="https://www.linkedin.com/in/kiyan-rezaee-7631751a4/"
+                                                target="_blank"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card--title">
+                                    <h3 id="kiyan"></h3>
+                                    <p id="headta"></p>
+                                </div>
+                                <div class="card--desc">
+                                    <hr />
+                                    <!--write sentences here-->
+                                </div>
+                                <div class="card--btn">
+                                    <a href="mailto:kiyanrezaee17@gmail.com?body=I'm sending this email from AP website."
+                                        target="_blank">
+                                        <span class="moreinfo"><i class="fa fa-info-circle"></i></span>
+                                        <span class="fullprof" id="email0"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <!--erfan-->
+                        <div class="card box-margin">
+                            <div class="card-liner">
+                                <figure><img src="../images/MoharramZade.png" alt="Erfan Moharamzadeh" />
+                                </figure>
+                                <div class="card--social">
+                                    <ul>
+                                        <li class="github"><a href="https://github.com/moharamzadeh" target="_blank"><i
+                                                    class="fa fa-github"></i></a></li>
+                                        <li class="linkedin"><a href="https://www.linkedin.com/in/erfanmoharamzadeh/"
+                                                target="_blank"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card--title">
+                                    <h3 id="erfan"></h3>
+                                    <p id="ta1"></p>
+                                </div>
+                                <div class="card--desc">
+                                    <hr />
+                                </div>
+                                <div class="card--btn">
+                                    <a href="#" target="_blank">
+                                        <span class="moreinfo"><i class="fa fa-info-circle"></i></span>
+                                        <span class="fullprof" id="email1"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <div class="card box-margin">
+                            <div class="card-liner">
+                                <figure><img src="../images/asghari.png" alt="Amir Asghari" />
+                                </figure>
+                                <div class="card--social">
+                                    <ul>
+                                        <li class="github"><a href="https://github.com/AmirAsghary" target="_blank"><i
+                                                    class="fa fa-github"></i></a></li>
+                                        <li class="linkedin"><a href="https://www.linkedin.com/in/amir-asghary-8a1037177"
+                                                target="_blank"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card--title">
+                                    <h3 id="amir"></h3>
+                                    <p id="ta2"></p>
+                                </div>
+                                <div class="card--desc">
+                                    <hr />
+                                </div>
+                                <div class="card--btn">
+                                    <a href="#" target="_blank">
+                                        <span class="moreinfo"><i class="fa fa-info-circle"></i></span>
+                                        <span class="fullprof" id="email2"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <!--second row-->
+                <div class="row">
+                    <div class="col-sm-4">
+                        <!--mehrshad-->
+                        <div class="card box-margin">
+                            <div class="card-liner">
+                                <figure><img src="../images/mehrshad.jpg" alt="Ali Dadashzadeh" />
+                                </figure>
+                                <div class="card--social">
+                                    <ul>
+                                        <li class="github"><a href="https://github.com/mehrshaad" target="_blank"><i
+                                                    class="fa fa-github"></i></a></li>
+                                        <li class="linkedin"><a
+                                                href="https://www.linkedin.com/in/mehrshad-dadashzadeh-7053491b3/"
+                                                target="_blank"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card--title">
+                                    <h3 id="mehrshad"></h3>
+                                    <p id="ta3"></p>
+                                </div>
+                                <div class="card--desc">
+                                    <hr />
+                                </div>
+                                <div class="card--btn">
+                                    <a href="mailto:mehrdadashzadeh1379@gmail.com?body=I'm sending this email from AP website."
+                                        target="_blank">
+                                        <span class="moreinfo"><i class="fa fa-info-circle"></i></span>
+                                        <span class="fullprof" id="email3"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <!--sara-->
+                        <div class="card box-margin">
+                            <div class="card-liner">
+                                <figure><img src="../images/Mazaheri.png" alt="Sara Mazaheri" />
+                                </figure>
+                                <div class="card--social">
+                                    <ul>
+                                        <li class="github"><a href="https://github.com/saramazaheri" target="_blank"><i
+                                                    class="fa fa-github"></i></a></li>
+                                        <li class="linkedin"><a href="https://www.linkedin.com/in/sara-mazaheri-399a6b191/"
+                                                target="_blank"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card--title">
+                                    <h3 id="sara"></h3>
+                                    <p id="ta4"></p>
+                                </div>
+                                <div class="card--desc">
+                                    <hr />
+                                </div>
+                                <div class="card--btn">
+                                    <a href="#" target="_blank">
+                                        <span class="moreinfo"><i class="fa fa-info-circle"></i></span>
+                                        <span class="fullprof" id="email4"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <!--amirhossien-->
+                        <div class="card box-margin">
+                            <div class="card-liner">
+                                <figure><img src="../images/Rahimi.png" alt="Amir Hossein Rahimi" />
+                                </figure>
+                                <div class="card--social">
+                                    <ul>
+                                        <li class="github"><a
+                                                href="https://github.com/orgs/AP-Class-Activities/people/ahrzeroday"
+                                                target="_blank"><i class="fa fa-github"></i></a></li>
+                                        <li class="linkedin"><a
+                                                href="https://www.linkedin.com/in/amir-hossein-rahimi-bb27b71b3/"
+                                                target="_blank"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card--title">
+                                    <h3 id="rahimi"></h3>
+                                    <p id="ta5"></p>
+                                </div>
+                                <div class="card--desc">
+                                    <hr />
+                                </div>
+                                <div class="card--btn">
+                                    <a href="#" target="_blank">
+                                        <span class="moreinfo"><i class="fa fa-info-circle"></i></span>
+                                        <span class="fullprof" id="email5"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>        
+          </div>
+          <div class="carousel-item">
+            <div class="container">
+                <!--third row-->
+                <div class="row">
+                    <div class="col-sm-4">
+                        <!--morteza-->
+                        <div class="card box-margin">
+                            <div class="card-liner">
+                                <figure><img src="../images/icon.ico" alt="Morteza Ziabakhsh" />
+                                </figure>
+                                <div class="card--social">
+                                    <ul>
+                                        <li class="github"><a
+                                                href="https://github.com/orgs/AP-Class-Activities/people/Morteza-24"
+                                                target="_blank"><i class="fa fa-github"></i></a></li>
+                                        <li class="linkedin"><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card--title">
+                                    <h3 id="morteza"></h3>
+                                    <p id="ta6"></p>
+                                </div>
+                                <div class="card--desc">
+                                    <hr />
+                                </div>
+                                <div class="card--btn">
+                                    <a href="#" target="_blank">
+                                        <span class="moreinfo"><i class="fa fa-info-circle"></i></span>
+                                        <span class="fullprof" id="email6"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <!--amirmohammad-->
+                        <div class="card box-margin">
+                            <div class="card-liner">
+                                <figure><img src="../images/icon.ico" alt="Amirmohammad Saberhabibi" />
+                                </figure>
+                                <div class="card--social">
+                                    <ul>
+                                        <li class="github"><a
+                                                href="https://github.com/orgs/AP-Class-Activities/people/Amir-SaberHabibi"
+                                                target="_blank"><i class="fa fa-github"></i></a></li>
+                                        <li class="linkedin"><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card--title">
+                                    <h3 id="amirmohammad"></h3>
+                                    <p id="ta7"></p>
+                                </div>
+                                <div class="card--desc">
+                                    <hr />
+                                </div>
+                                <div class="card--btn">
+                                    <a href="#" target="_blank">
+                                        <span class="moreinfo"><i class="fa fa-info-circle"></i></span>
+                                        <span class="fullprof" id="email7"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4">
+                        <!--faeze-->
+                        <div class="card box-margin">
+                            <div class="card-liner">
+                                <figure><img src="../images/icon.ico" alt="Faeze Rahmati" />
+                                </figure>
+                                <div class="card--social">
+                                    <ul>
+                                        <li class="github"><a
+                                                href="https://github.com/orgs/AP-Class-Activities/people/FzRahmati"
+                                                target="_blank"><i class="fa fa-github"></i></a></li>
+                                        <li class="linkedin"><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card--title">
+                                    <h3 id="faeze"></h3>
+                                    <p id="ta8"></p>
+                                </div>
+                                <div class="card--desc">
+                                    <hr />
+                                </div>
+                                <div class="card--btn">
+                                    <a href="#" target="_blank">
+                                        <span class="moreinfo"><i class="fa fa-info-circle"></i></span>
+                                        <span class="fullprof" id="email8"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#controler" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#controler" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+
+
+</body>
+
+</html>
