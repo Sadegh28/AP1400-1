@@ -1,5 +1,5 @@
-
 isPersian = true;
+
 function translateToPersian() {
     var a = document.getElementById('per')
     a.classList.add('persian')
@@ -169,7 +169,7 @@ function translateToPersian() {
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('kiyan')
-        a.innerText = 'کیان رضایی'
+        a.innerHTML = 'کیان<br>رضایی'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('headta')
@@ -442,18 +442,18 @@ function translateToEnglish() {
 
         var a = document.getElementById('prevcourse1')
         a.classList.remove('persian')
-        a.innerHTML = `semester-982`
-        a.style.fontFamily = "Segoe UI"
+        a.innerHTML = `Semester 982`
+        a.style.fontFamily = "Comic Sans MS"
 
         var a = document.getElementById('prevcourse2')
         a.classList.remove('persian')
-        a.innerHTML = `semester-991`
-        a.style.fontFamily = "Segoe UI"
+        a.innerHTML = `Semester 991`
+        a.style.fontFamily = "Comic Sans MS"
 
         var a = document.getElementById('prevcourse3')
         a.classList.remove('persian')
-        a.innerHTML = `semester-992`
-        a.style.fontFamily = "Segoe UI"
+        a.innerHTML = `Semester 992`
+        a.style.fontFamily = "Comic Sans MS"
 
         var a = document.getElementById('3')
         a.classList.remove('persian')
@@ -487,7 +487,7 @@ function translateToEnglish() {
 
         var a = document.getElementById('6')
         a.classList.remove('persian')
-        a.innerHTML = `Teaching Assistant Team`
+        a.innerHTML = `Teaching Assistants Team`
 
         var a = document.getElementById('7')
         a.classList.remove('persian')
@@ -514,11 +514,11 @@ function translateToEnglish() {
     try {
 
         var a = document.getElementById('ref1')
-        a.innerText = 'Python-Programming-Introduction-Computer-Science'
+        a.innerText = 'Python Programming: An Introduction to Computer Science'
         a.classList.remove('persian')
 
         var a = document.getElementById('ref2')
-        a.innerText = 'How-Think-Like-Computer-Scientist'
+        a.innerText = 'How to Think Like a Computer Scientist: Learning with Python'
         a.classList.remove('persian')
 
         var a = document.getElementById('12')
@@ -597,11 +597,11 @@ function translateToEnglish() {
     //TAT - en
     try {
         var a = document.getElementById('titleTA')
-        a.innerText = 'Teaching Assistant Team'
+        a.innerText = 'Teaching Assistants Team'
         a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('kiyan')
-        a.innerText = 'Kiyan Rezaee'
+        a.innerHTML = 'Kiyan<br>Rezaee'
         a.style.fontFamily = 'Segoe UI'
 
         var a = document.getElementById('headta')

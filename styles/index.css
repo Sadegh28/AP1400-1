@@ -1,5 +1,10 @@
 @import url("base.css");
 
+:root {
+    --bgTerm: rgba(255, 255, 255, 0.9);
+    --bgTerm-hover: rgba(127, 255, 212, 0.9);
+}
+
 img {
     padding: 0.2%;
     border: 1px solid white;
@@ -22,7 +27,6 @@ img {
 
 .link {
     color: aquamarine;
-    /* border: 1px solid; */
     border-bottom: 2px solid rgba(0, 0, 0, 0);
     transition: all 0.4s ease-in-out;
 }
@@ -49,7 +53,9 @@ img {
     padding: 20px;
     text-align: center;
     margin: 0px;
-    margin-top: calc(10vh + 2vw);
+    margin-top: 18vh;
+    z-index: -1;
+    cursor: default;
 }
 
 
@@ -57,7 +63,6 @@ img {
     font-family: 'Ubuntu',
         sans-serif;
     margin: 2vh 0vh;
-    /* padding-bottom: 30px; */
     padding: 1vh 2vw;
     min-height: calc(80px + 13vh);
     max-height: calc(80px + 13vh);
@@ -76,12 +81,10 @@ img {
 
 .card-s h4 {
     text-align: center;
-    /* transform: translateY(-50%); */
     transform: translateY(65%);
     color: whitesmoke;
     font-weight: bolder;
     font-size: x-large;
-    /* position: sticky; */
     font-size: calc(11px + 0.5vw + 0.4vh);
     transition: all 0.4s ease-in-out;
 }
@@ -89,7 +92,6 @@ img {
 
 .card-s p {
     font-size: calc(5px + 0.4vw + 0.3vh);
-    /* color: white; */
     color: #00000000;
     transform: translateY(35%);
     font-weight: bold;
@@ -116,4 +118,46 @@ img {
     color: white;
     transform: translateY(-20%);
     transition: all 0.4s ease-in-out;
+}
+
+.btn-term {
+    font-size: calc(10px + 0.2vw);
+    height: calc(1.5vh + 20px);
+    max-height: calc(40px);
+    width: calc(15vw + 20px);
+    max-width: calc(110px);
+    background-color: var(--bgTerm);
+    color: black;
+    border: 0px solid white;
+    transition: all 0.2s ease-in-out;
+    outline: none;
+    text-align: center;
+    vertical-align: middle;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-term:nth-child(1) {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.btn-term:nth-child(2) {
+    border-radius: 0px;
+}
+
+.btn-term:nth-child(3) {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.btn-term:focus {
+    background-color: var(--bgTerm);
+    outline: none;
+}
+
+.btn-term:hover,
+.btn-term:active {
+    box-shadow: var(--bgTerm-hover) 0px -50px 36px -28px inset;
+    border-color: black;
+    transition: all 0.2s ease-in-out;
+    outline: none;
 }
