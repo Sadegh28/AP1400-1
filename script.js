@@ -88,6 +88,18 @@ function translateToPersian() {
     //syllabus - per
     try {
 
+        var a = document.getElementById('sl_1_date')
+        a.innerText = '1399/11/27'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_1_subject')
+        a.innerText = 'نصب و راه اندازی برنامه های مورد نیاز ، معرفی کوئرا'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_1_instructors')
+        a.innerText = ' کیان رضایی ، علی داداش زاده ، سارا مظاهری ، امیر اصغری'
+        a.style.fontFamily = 'IranYekan'
+
         var a = document.getElementById('ref1')
         a.innerText = 'برنامه نویسی پایتون: مقدمه ای بر علوم کامپیوتر'
         a.style.fontFamily = 'IranYekan'
@@ -389,7 +401,7 @@ function translateToPersian() {
 
 
         var a = document.getElementById('1007')
-        a.innerText = `اطلاعات بیشتر در خصوص پروژه اول`
+        a.innerText = `فروشگاه آنلاین`
 
         var a = document.getElementById('1008')
         a.innerText = `اطلاعات بیشتر`
@@ -400,7 +412,7 @@ function translateToPersian() {
 
 
         var a = document.getElementById('1010')
-        a.innerText = `اطلاعات بیشتر در خصوص پروژه دوم`
+        a.innerText = `بازی جاذبه نینجا`
 
 
         var a = document.getElementById('1011')
@@ -512,6 +524,18 @@ function translateToEnglish() {
 
     //syllabus - en
     try {
+
+        var a = document.getElementById('sl_1_date')
+        a.innerText = '2021-09-08'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_1_subject')
+        a.innerText = 'prerequisite'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_1_instructors')
+        a.innerText = ' Amir Asqari, Sara Mazeher, Ali dadashzade, Kiyan rezaee'
+        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('ref1')
         a.innerText = 'Python Programming: An Introduction to Computer Science'
@@ -826,7 +850,7 @@ function translateToEnglish() {
 
 
         var a = document.getElementById('1007')
-        a.innerText = `Some information about project 1`
+        a.innerText = `Online shop`
 
         var a = document.getElementById('1008')
         a.innerText = `More information`
@@ -837,7 +861,7 @@ function translateToEnglish() {
 
 
         var a = document.getElementById('1010')
-        a.innerText = `Some information about project 2`
+        a.innerText = `Gravity Ninja`
 
 
         var a = document.getElementById('1011')
