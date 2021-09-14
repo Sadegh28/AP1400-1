@@ -433,7 +433,7 @@ function translateToEnglish() {
     //header
     var a = document.getElementById('1')
     a.classList.remove('persian')
-    a.innerHTML = `Advanced Programming 2021-22 / Semester Fall
+    a.innerHTML = `Advanced Programming 2021-22 / Fall semester
                 <br>
                 <div class="credits">
                 <h4 style="font-size: calc(3px + 0.5vw + 0.5vh);">Guilan University - Faculty of Mathematics</h4>
@@ -471,17 +471,17 @@ function translateToEnglish() {
         a.classList.remove('persian')
         a.style.direction = "ltr"
         a.innerHTML = `Nowadays, programming is one of the most needed skills. In this course, we'll learn some topics of
-      advanced programming. Object oriented programming, data structure and algorithm analyzing are the most important
+      advanced programming. Object-Oriented programming, data structure and algorithm analysis are the most important
       ones.
-      Although, all of these topics are independent from a special programming language, but we use one of the most
+      Although all of these topics are independent of a special programming language, we use one of the most
       liked
       programming
-      languages, which is <a class="link" href="https://www.python.org/" target="_blank">Python!</a> We chose python
+      languages, which is <a class="link" href="https://www.python.org/" target="_blank">Python!</a> We chose Python
       because it's simple and open source. In this
       course,
       most of our focus
-      is on your teamworks and programming activities. You'll learn object oriented programming, and you'll have to
-      implement a project as a final teamwork result. At the end you'll be expected to write classes, use data
+      is on your Teamwork and programming activities. You'll learn Object-Oriented programming, and you'll have to
+      implement a project as a final Teamwork result. At the end you'll be expected to write classes, use data
       structures and
       design a graphical user
       interface for your project.
@@ -503,7 +503,7 @@ function translateToEnglish() {
 
         var a = document.getElementById('7')
         a.classList.remove('persian')
-        a.innerHTML = `A list of this semester teaching assistants and contacting information`
+        a.innerHTML = `A list of this semester Teaching assistants and contacting information`
 
         var a = document.getElementById('8')
         a.classList.remove('persian')
@@ -519,7 +519,7 @@ function translateToEnglish() {
 
         var a = document.getElementById('11')
         a.classList.remove('persian')
-        a.innerHTML = `More information about problem sets and their deadlines`
+        a.innerHTML = `More information about Exercises and their deadlines`
     } catch { }
 
     //syllabus - en
@@ -534,7 +534,7 @@ function translateToEnglish() {
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_1_instructors')
-        a.innerText = ' Amir Asqari, Sara Mazeher, Ali dadashzade, Kiyan rezaee'
+        a.innerText = ' Amir Asqari, Sara Mazeheri, Ali Dadashzade, Kiyan Rezaee'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('ref1')
@@ -589,7 +589,7 @@ function translateToEnglish() {
         var a = document.getElementById('19')
         a.classList.remove('persian')
         a.style.fontFamily = "Consolas"
-        a.innerHTML = `Although we don't use any resource books for this course, it has been recommended to you to read these books below.`
+        a.innerHTML = `Although we don't use any resource books for this course, it has been recommended to you read these books below.`
         a.style.direction = "ltr"
 
         var a = document.getElementById('20')
@@ -615,7 +615,7 @@ function translateToEnglish() {
         var a = document.getElementById('24')
         a.classList.remove('persian')
         a.style.fontFamily = "Consolas"
-        a.innerHTML = `Problem Set: 1 point (for each)`
+        a.innerHTML = `Ecercises: 1 point (for each)`
     } catch { }
 
     //TAT - en
@@ -759,12 +759,12 @@ function translateToEnglish() {
 
         var a = document.getElementById('li2')
         a.classList.remove('persian')
-        a.innerHTML = `You should submit your answers to problem sets at <a class="link" href="https://quera.ir/dashboard/" target="_blank">
+        a.innerHTML = `You should submit your answers to problem sets on <a class="link" href="https://quera.ir/dashboard/" target="_blank">
                         Quera website</a>.`
         a.style.textAlign = 'left'
 
         var a = document.getElementById('li3')
-        a.innerText = 'Copied answer equals to 0 points for both sides.'
+        a.innerText = 'Copied answer equals 0 points for both sides.'
         a.classList.remove('persian')
         a.style.textAlign = 'left'
 
@@ -820,12 +820,12 @@ function translateToEnglish() {
 
 
         var a = document.getElementById('1001')
-        a.innerText = `You should use object oriented programming in your project and the application program interfaces (API) will be taken.`
+        a.innerText = `You should use Object-Oriented programming in your project and the application program interfaces (API) will be taken.`
         a.style.textAlign = 'justify'
 
 
         var a = document.getElementById('1002')
-        a.innerText = `You're not limited to taught topics for your project, only if you know them well.`
+        a.innerText = `You're not limited to taught topics for your project, You can use them only if you know them well.`
         a.style.textAlign = 'justify'
 
 
@@ -840,7 +840,7 @@ function translateToEnglish() {
 
 
         var a = document.getElementById('1005')
-        a.innerText = `In case we find out that you copied your project your score will be 0. Copied projects are clear as the sun!`
+        a.innerText = `In case we find out that you copied your project your score will be 0. Copied projects are clear as a sun!`
         a.style.textAlign = 'justify'
 
 
