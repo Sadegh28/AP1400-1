@@ -100,6 +100,20 @@ function translateToPersian() {
         a.innerText = ' کیان رضایی ، علی داداش زاده ، سارا مظاهری ، امیر اصغری'
         a.style.fontFamily = 'IranYekan'
 
+        var a = document.getElementById('sl_2_date')
+        a.innerText = '1400/7/2'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_2_subject')
+        a.innerText = 'مقدمه'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_2_instructors')
+        a.innerText = ' دکتر صادق اسکندری'
+        a.style.fontFamily = 'IranYekan'
+
+
+
         var a = document.getElementById('ref1')
         a.innerText = 'برنامه نویسی پایتون: مقدمه ای بر علوم کامپیوتر'
         a.style.fontFamily = 'IranYekan'
@@ -535,6 +549,18 @@ function translateToEnglish() {
 
         var a = document.getElementById('sl_1_instructors')
         a.innerText = ' Amir Asqari, Sara Mazeheri, Ali Dadashzade, Kiyan Rezaee'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_2_date')
+        a.innerText = '2021-9-24'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_2_subject')
+        a.innerText = 'Introduction'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_2_instructors')
+        a.innerText = 'Dr.Sadegh Eskandari'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('ref1')
