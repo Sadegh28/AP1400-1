@@ -113,6 +113,18 @@ function translateToPersian() {
         a.style.fontFamily = 'IranYekan'
 
 
+        var a = document.getElementById('sl_3_date')
+        a.innerText = '1400/7/6'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_3_subject')
+        a.innerText = 'مقدمات پایتون'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_3_instructors')
+        a.innerText = ' دکتر صادق اسکندری'
+        a.style.fontFamily = 'IranYekan'
+
 
         var a = document.getElementById('ref1')
         a.innerText = 'برنامه نویسی پایتون: مقدمه ای بر علوم کامپیوتر'
@@ -544,7 +556,7 @@ function translateToEnglish() {
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_1_subject')
-        a.innerText = 'prerequisite'
+        a.innerText = 'Prerequisite'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_1_instructors')
@@ -560,6 +572,18 @@ function translateToEnglish() {
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_2_instructors')
+        a.innerText = 'Dr.Sadegh Eskandari'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_3_date')
+        a.innerText = '2021-9-28'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_3_subject')
+        a.innerText = 'Python Basics'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_3_instructors')
         a.innerText = 'Dr.Sadegh Eskandari'
         a.style.fontFamily = 'IranYekan'
 
