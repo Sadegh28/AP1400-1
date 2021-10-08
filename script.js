@@ -125,6 +125,17 @@ function translateToPersian() {
         a.innerText = ' دکتر صادق اسکندری'
         a.style.fontFamily = 'IranYekan'
 
+        var a = document.getElementById('sl_4_date')
+        a.innerText = '1400/7/12'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_4_subject')
+        a.innerText = 'ساختار های کنترلی در پایتون'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_4_instructors')
+        a.innerText = ' دکتر صادق اسکندری'
+        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('ref1')
         a.innerText = 'برنامه نویسی پایتون: مقدمه ای بر علوم کامپیوتر'
@@ -584,6 +595,18 @@ function translateToEnglish() {
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_3_instructors')
+        a.innerText = 'Dr.Sadegh Eskandari'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_4_date')
+        a.innerText = '2021-10-4'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_4_subject')
+        a.innerText = 'Control Structures in Python'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_4_instructors')
         a.innerText = 'Dr.Sadegh Eskandari'
         a.style.fontFamily = 'IranYekan'
 
