@@ -137,6 +137,18 @@ function translateToPersian() {
         a.innerText = ' دکتر صادق اسکندری'
         a.style.fontFamily = 'IranYekan'
 
+        var a = document.getElementById('sl_5_date')
+        a.innerText = '1400/8/3'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_5_subject')
+        a.innerText = 'توابع در پایتون'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_5_instructors')
+        a.innerText = ' دکتر صادق اسکندری'
+        a.style.fontFamily = 'IranYekan'
+
         var a = document.getElementById('ref1')
         a.innerText = 'برنامه نویسی پایتون: مقدمه ای بر علوم کامپیوتر'
         a.style.fontFamily = 'IranYekan'
@@ -607,6 +619,18 @@ function translateToEnglish() {
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_4_instructors')
+        a.innerText = 'Dr.Sadegh Eskandari'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_5_date')
+        a.innerText = '2021-10-25'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_5_subject')
+        a.innerText = 'ّFunctions'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_5_instructors')
         a.innerText = 'Dr.Sadegh Eskandari'
         a.style.fontFamily = 'IranYekan'
 
