@@ -398,6 +398,19 @@ function translateToPersian() {
         var a = document.getElementById('16')
         a.innerText = 'نمرات'
 
+        var a = document.getElementById('hw1_number')
+        a.innerText = '1'
+
+        var a = document.getElementById('hw1_file')
+        a.innerText = 'تمرین شماره یک'
+
+        var a = document.getElementById('hw1_date')
+        a.innerText = '1400/8/3'
+
+        var a = document.getElementById('hw1_score')
+        a.innerText = 'نمرات تمرین شماره یک'
+
+
     } catch { }
 
     //project - per
@@ -712,7 +725,7 @@ function translateToEnglish() {
         var a = document.getElementById('24')
         a.classList.remove('persian')
         a.style.fontFamily = "Consolas"
-        a.innerHTML = `Ecercises: 1 point (for each)`
+        a.innerHTML = `Exercises: 1 point (for each)`
     } catch { }
 
     //TAT - en
@@ -889,6 +902,19 @@ function translateToEnglish() {
 
         var a = document.getElementById('16')
         a.innerText = 'Scores'
+
+        var a = document.getElementById('hw1_number')
+        a.innerText = '1'
+
+        var a = document.getElementById('hw1_file')
+        a.innerText = 'First Exercise'
+
+        var a = document.getElementById('hw1_date')
+        a.innerText = '2021/10/25'
+
+        var a = document.getElementById('hw1_score')
+        a.innerText = 'ّFirst Exercise Scores'
+
 
     } catch { }
 
