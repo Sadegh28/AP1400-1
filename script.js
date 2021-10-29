@@ -97,7 +97,7 @@ function translateToPersian() {
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_1_instructors')
-        a.innerText = ' کیان رضایی ، علی داداش زاده ، سارا مظاهری ، امیر اصغری'
+        a.innerText = ' کیان رضایی / علی داداش زاده / سارا مظاهری / امیر اصغری'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_2_date')
@@ -608,7 +608,7 @@ function translateToEnglish() {
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_1_instructors')
-        a.innerText = ' Amir Asqari, Sara Mazeheri, Ali Dadashzade, Kiyan Rezaee'
+        a.innerText = ' Amir Asqari / Sara Mazeheri / Ali Dadashzade / Kiyan Rezaee'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_2_date')
@@ -664,7 +664,7 @@ function translateToEnglish() {
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_6_subject')
-        a.innerText = 'ّsolve Exercise Number One'
+        a.innerText = 'ّSolve Exercise Number One'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_6_instructors')
