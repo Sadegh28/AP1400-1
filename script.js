@@ -149,6 +149,18 @@ function translateToPersian() {
         a.innerText = ' دکتر صادق اسکندری'
         a.style.fontFamily = 'IranYekan'
 
+        var a = document.getElementById('sl_6_date')
+        a.innerText = '1400/8/7'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_6_subject')
+        a.innerText = 'حل تمرین شماره یک'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_6_instructors')
+        a.innerText = ' فائزه رحمتی / امیر صابرحبیبی / کیان رضایی'
+        a.style.fontFamily = 'IranYekan'
+
         var a = document.getElementById('ref1')
         a.innerText = 'برنامه نویسی پایتون: مقدمه ای بر علوم کامپیوتر'
         a.style.fontFamily = 'IranYekan'
@@ -645,6 +657,18 @@ function translateToEnglish() {
 
         var a = document.getElementById('sl_5_instructors')
         a.innerText = 'Dr.Sadegh Eskandari'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_6_date')
+        a.innerText = '2021-10-29'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_6_subject')
+        a.innerText = 'ّsolve Exercise Number One'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_6_instructors')
+        a.innerText = 'Faeze Rahmati / Amir Saberhabibi / Kiyan Rezaee'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('ref1')
