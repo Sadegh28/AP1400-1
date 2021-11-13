@@ -161,6 +161,30 @@ function translateToPersian() {
         a.innerText = ' فائزه رحمتی / امیر صابرحبیبی / کیان رضایی'
         a.style.fontFamily = 'IranYekan'
 
+        var a = document.getElementById('sl_7_date')
+        a.innerText = '1400/8/20'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_7_subject')
+        a.innerText = 'حل چند تمرین از ساختار های کنترلی و توابع'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_7_instructors')
+        a.innerText = ' کیان رضایی'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_8_date')
+        a.innerText = '1400/8/21'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_8_subject')
+        a.innerText = 'توابع بازگشتی'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_8_instructors')
+        a.innerText = 'دکتر صادق اسکندری'
+        a.style.fontFamily = 'IranYekan'
+
         var a = document.getElementById('ref1')
         a.innerText = 'برنامه نویسی پایتون: مقدمه ای بر علوم کامپیوتر'
         a.style.fontFamily = 'IranYekan'
@@ -669,6 +693,30 @@ function translateToEnglish() {
 
         var a = document.getElementById('sl_6_instructors')
         a.innerText = 'Faeze Rahmati / Amir Saberhabibi / Kiyan Rezaee'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_7_date')
+        a.innerText = '2021-11-11'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_7_subject')
+        a.innerText = 'ّExercise (Control Structure & Functions)'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_7_instructors')
+        a.innerText = 'Kiyan Rezaee'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_8_date')
+        a.innerText = '2021-11-12'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_8_subject')
+        a.innerText = 'ّRecursion'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_8_instructors')
+        a.innerText = 'Dr.Sadegh Eskandari'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('ref1')
