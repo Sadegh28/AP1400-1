@@ -12,7 +12,7 @@ function translateToPersian() {
     //header
     var a = document.getElementById('1')
     a.classList.add('persian')
-    a.innerHTML = `برنامه سازی پیشرفته 14001
+    a.innerHTML = `برنامه سازی پیشرفته 1-1400
                 <br>
                 <div class="credits">
                 <h4 class="persian" style="font-size: calc(3px + 0.5vw + 0.5vh);font-family: 'IranYekan';">دانشگاه گیلان - دانشکده علوم ریاضی</h4>
