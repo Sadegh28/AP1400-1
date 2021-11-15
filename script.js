@@ -154,7 +154,7 @@ function translateToPersian() {
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_6_subject')
-        a.innerText = 'حل تمرین شماره یک'
+        a.innerText = 'حل تمرین های سری اول'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_6_instructors')
@@ -183,6 +183,30 @@ function translateToPersian() {
 
         var a = document.getElementById('sl_8_instructors')
         a.innerText = 'دکتر صادق اسکندری'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_9_date')
+        a.innerText = '1400/8/24'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_9_subject')
+        a.innerText = 'کلاس آنلاین حل تمرین'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_9_instructors')
+        a.innerText = 'عرفان محرم زاده / مهرشاد داداش زاده / کیان رضایی'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_10_date')
+        a.innerText = '1400/8/22'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_10_subject')
+        a.innerText = 'حل تمرین های سری دوم'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_10_instructors')
+        a.innerText = 'امیرحسین رحیمی / سارا مظاهری'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('ref1')
@@ -446,7 +470,19 @@ function translateToPersian() {
         var a = document.getElementById('hw1_score')
         a.innerText = 'نمرات تمرین شماره یک'
 
+        var a = document.getElementById('hw2_number')
+        a.innerText = '2'
 
+        var a = document.getElementById('hw2_file')
+        a.innerText = 'تمرین شماره دو'
+
+        var a = document.getElementById('hw2_date')
+        a.innerText = '1400/8/22'
+
+        var a = document.getElementById('hw2_score')
+        a.innerText = 'نمرات تمرین شماره دو'
+
+111
     } catch { }
 
     //project - per
@@ -719,6 +755,30 @@ function translateToEnglish() {
         a.innerText = 'Dr.Sadegh Eskandari'
         a.style.fontFamily = 'IranYekan'
 
+        var a = document.getElementById('sl_9_date')
+        a.innerText = '2021-11-13'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_9_subject')
+        a.innerText = 'ّOnline Class'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_9_instructors')
+        a.innerText = 'Erfan Moharamzade / Mehrshad dadashzade / Kiyan rezaee'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_10_date')
+        a.innerText = '2021-11-13'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_10_subject')
+        a.innerText = 'ّSolve Exercise Number Two'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_10_instructors')
+        a.innerText = 'Amirhossien Rahimi / Sara Mazaheri'
+        a.style.fontFamily = 'IranYekan'
+
         var a = document.getElementById('ref1')
         a.innerText = 'Python Programming: An Introduction to Computer Science'
         a.classList.remove('persian')
@@ -986,6 +1046,18 @@ function translateToEnglish() {
 
         var a = document.getElementById('hw1_score')
         a.innerText = 'ّFirst Exercise Scores'
+
+        var a = document.getElementById('hw2_number')
+        a.innerText = '2'
+
+        var a = document.getElementById('hw2_file')
+        a.innerText = 'ُSecond Exercise'
+
+        var a = document.getElementById('hw2_date')
+        a.innerText = '2021/11/15'
+
+        var a = document.getElementById('hw2_score')
+        a.innerText = 'ّSecond Exercise Scores'
 
 
     } catch { }
