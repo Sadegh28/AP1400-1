@@ -198,7 +198,7 @@ function translateToPersian() {
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_10_date')
-        a.innerText = '1400/8/22'
+        a.innerText = '1400/8/24'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_10_subject')
