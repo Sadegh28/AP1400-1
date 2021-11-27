@@ -209,6 +209,30 @@ function translateToPersian() {
         a.innerText = 'امیرحسین رحیمی / سارا مظاهری'
         a.style.fontFamily = 'IranYekan'
 
+        var a = document.getElementById('sl_11_date')
+        a.innerText = '1400/8/29'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_11_subject')
+        a.innerText = 'کلاس آنلاین '
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_11_instructors')
+        a.innerText = 'کیان رضایی'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_12_date')
+        a.innerText = '1400/9/6'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_12_subject')
+        a.innerText = 'کلکسیون ها '
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_12_instructors')
+        a.innerText = 'دکتر صادق اسکندری'
+        a.style.fontFamily = 'IranYekan'
+
         var a = document.getElementById('ref1')
         a.innerText = 'برنامه نویسی پایتون: مقدمه ای بر علوم کامپیوتر'
         a.style.fontFamily = 'IranYekan'
@@ -665,119 +689,109 @@ function translateToEnglish() {
 
         var a = document.getElementById('sl_1_subject')
         a.innerText = 'Prerequisite'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_1_instructors')
         a.innerText = ' Amir Asqari / Sara Mazeheri / Ali Dadashzade / Kiyan Rezaee'
-        a.style.fontFamily = 'IranYekan'
+   
 
         var a = document.getElementById('sl_2_date')
         a.innerText = '2021-9-24'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_2_subject')
         a.innerText = 'Introduction'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_2_instructors')
         a.innerText = 'Dr.Sadegh Eskandari'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_3_date')
         a.innerText = '2021-9-28'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_3_subject')
         a.innerText = 'Python Basics'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_3_instructors')
         a.innerText = 'Dr.Sadegh Eskandari'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_4_date')
         a.innerText = '2021-10-4'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_4_subject')
         a.innerText = 'Control Structures in Python'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_4_instructors')
         a.innerText = 'Dr.Sadegh Eskandari'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_5_date')
         a.innerText = '2021-10-25'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_5_subject')
         a.innerText = 'ّFunctions'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_5_instructors')
         a.innerText = 'Dr.Sadegh Eskandari'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_6_date')
         a.innerText = '2021-10-29'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_6_subject')
         a.innerText = 'ّSolve Exercise Number One'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_6_instructors')
         a.innerText = 'Faeze Rahmati / Amir Saberhabibi / Kiyan Rezaee'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_7_date')
         a.innerText = '2021-11-11'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_7_subject')
         a.innerText = 'ّExercise (Control Structure & Functions)'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_7_instructors')
         a.innerText = 'Kiyan Rezaee'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_8_date')
         a.innerText = '2021-11-12'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_8_subject')
         a.innerText = 'ّRecursion'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_8_instructors')
         a.innerText = 'Dr.Sadegh Eskandari'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_9_date')
         a.innerText = '2021-11-13'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_9_subject')
         a.innerText = 'ّOnline Class'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_9_instructors')
         a.innerText = 'Erfan Moharamzade / Mehrshad dadashzade / Kiyan rezaee'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_10_date')
         a.innerText = '2021-11-13'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_10_subject')
         a.innerText = 'ّSolve Exercise Number Two'
-        a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_10_instructors')
         a.innerText = 'Amirhossien Rahimi / Sara Mazaheri'
-        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_11_date')
+        a.innerText = '2021-11-20'
+
+        var a = document.getElementById('sl_11_subject')
+        a.innerText = 'ّOnline Class'
+
+        var a = document.getElementById('sl_11_instructors')
+        a.innerText = 'Kiyan Rezaee'
+
+        var a = document.getElementById('sl_12_date')
+        a.innerText = '2021-11-27'
+
+        var a = document.getElementById('sl_12_subject')
+        a.innerText = 'ّCollections'
+
+        var a = document.getElementById('sl_12_instructors')
+        a.innerText = 'Dr.Sadegh Eskandari'
 
         var a = document.getElementById('ref1')
         a.innerText = 'Python Programming: An Introduction to Computer Science'
