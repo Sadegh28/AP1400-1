@@ -233,6 +233,18 @@ function translateToPersian() {
         a.innerText = 'دکتر صادق اسکندری'
         a.style.fontFamily = 'IranYekan'
 
+        var a = document.getElementById('sl_13_date')
+        a.innerText = '1400/9/18'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_13_subject')
+        a.innerText = 'حل تمرین های سری سوم (آنلاین)'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_13_instructors')
+        a.innerText = 'کیان رضایی / مرتضی ضیابخش / امیر اصغری'
+        a.style.fontFamily = 'IranYekan'
+
         var a = document.getElementById('ref1')
         a.innerText = 'برنامه نویسی پایتون: مقدمه ای بر علوم کامپیوتر'
         a.style.fontFamily = 'IranYekan'
@@ -792,6 +804,15 @@ function translateToEnglish() {
 
         var a = document.getElementById('sl_12_instructors')
         a.innerText = 'Dr.Sadegh Eskandari'
+
+        var a = document.getElementById('sl_13_date')
+        a.innerText = '2021-12-9'
+
+        var a = document.getElementById('sl_13_subject')
+        a.innerText = 'Solve Exercise Number Three'
+
+        var a = document.getElementById('sl_13_instructors')
+        a.innerText = 'Amir Asqari / Morteza Ziabakhsh / Kiyan Rezaee'
 
         var a = document.getElementById('ref1')
         a.innerText = 'Python Programming: An Introduction to Computer Science'
