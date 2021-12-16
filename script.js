@@ -245,6 +245,54 @@ function translateToPersian() {
         a.innerText = 'کیان رضایی / مرتضی ضیابخش / امیر اصغری'
         a.style.fontFamily = 'IranYekan'
 
+        var a = document.getElementById('sl_14_date')
+        a.innerText = '1400/9/20'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_14_subject')
+        a.innerText = 'شی گرایی - پایگیم - رخداد ها در پایگیم'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_14_instructors')
+        a.innerText = 'دکتر صادق اسکندری'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_15_date')
+        a.innerText = '1400/9/22'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_15_subject')
+        a.innerText = 'کپسوله سازی - وراثت'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_15_instructors')
+        a.innerText = 'دکتر صادق اسکندری'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_16_date')
+        a.innerText = '1400/9/25'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_16_subject')
+        a.innerText = 'پایکیوت - کار با فایل'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_16_instructors')
+        a.innerText = 'مهرشاد داداش زاده'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_17_date')
+        a.innerText = '1400/9/25'
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_17_subject')
+        a.innerText = 'پایکیوت '
+        a.style.fontFamily = 'IranYekan'
+
+        var a = document.getElementById('sl_17_instructors')
+        a.innerText = 'ایمان کیانیان'
+        a.style.fontFamily = 'IranYekan'
+
         var a = document.getElementById('ref1')
         a.innerText = 'برنامه نویسی پایتون: مقدمه ای بر علوم کامپیوتر'
         a.style.fontFamily = 'IranYekan'
@@ -813,6 +861,42 @@ function translateToEnglish() {
 
         var a = document.getElementById('sl_13_instructors')
         a.innerText = 'Amir Asqari / Morteza Ziabakhsh / Kiyan Rezaee'
+
+        var a = document.getElementById('sl_14_date')
+        a.innerText = '2021-12-11'
+
+        var a = document.getElementById('sl_14_subject')
+        a.innerText = 'OOP-part1 - Pygame - Events on Pygame'
+
+        var a = document.getElementById('sl_14_instructors')
+        a.innerText = 'Dr.Sadegh Eskandari'
+
+        var a = document.getElementById('sl_15_date')
+        a.innerText = '2021-12-13'
+
+        var a = document.getElementById('sl_15_subject')
+        a.innerText = 'OOP-part3 - Inheritance'
+
+        var a = document.getElementById('sl_15_instructors')
+        a.innerText = 'Dr.Sadegh Eskandari'
+
+        var a = document.getElementById('sl_16_date')
+        a.innerText = '2021-12-16'
+
+        var a = document.getElementById('sl_16_subject')
+        a.innerText = 'PyQt5 - working with files'
+
+        var a = document.getElementById('sl_16_instructors')
+        a.innerText = 'Mehrshad Dadashzade'
+
+        var a = document.getElementById('sl_17_date')
+        a.innerText = '2021-12-16'
+
+        var a = document.getElementById('sl_17_subject')
+        a.innerText = 'PyQt5'
+
+        var a = document.getElementById('sl_17_instructors')
+        a.innerText = 'Iman Kianian'
 
         var a = document.getElementById('ref1')
         a.innerText = 'Python Programming: An Introduction to Computer Science'
