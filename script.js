@@ -1,4 +1,4 @@
-isPersian = true;
+isPersian = false;
 
 function translateToPersian() {
     var a = document.getElementById('per')
