@@ -1,4 +1,4 @@
-isPersian = false;
+isPersian = true;
 
 function translateToPersian() {
     var a = document.getElementById('per')
@@ -565,6 +565,18 @@ function translateToPersian() {
 
         var a = document.getElementById('hw2_score')
         a.innerText = 'نمرات تمرین شماره دو'
+
+        var a = document.getElementById('hw3_number')
+        a.innerText = '3'
+
+        var a = document.getElementById('hw3_file')
+        a.innerText = 'تمرین شماره سه'
+
+        var a = document.getElementById('hw3_date')
+        a.innerText = '1400/9/22'
+
+        var a = document.getElementById('hw3_score')
+        a.innerText = 'نمرات تمرین شماره سه'
 
 111
     } catch { }
@@ -1177,6 +1189,18 @@ function translateToEnglish() {
 
         var a = document.getElementById('hw2_score')
         a.innerText = 'ّSecond Exercise Scores'
+
+        var a = document.getElementById('hw3_number')
+        a.innerText = '3'
+
+        var a = document.getElementById('hw3_file')
+        a.innerText = 'Third Exercise'
+
+        var a = document.getElementById('hw3_date')
+        a.innerText = '2021/12/15'
+
+        var a = document.getElementById('hw3_score')
+        a.innerText = 'Third Exercise Scores'
 
 
     } catch { }
