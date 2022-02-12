@@ -154,7 +154,7 @@ function translateToPersian() {
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_6_subject')
-        a.innerText = 'حل تمرین های سری اول'
+        a.innerText = 'حل تمرین های سری اول - ساختار های کنترلی'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_6_instructors')
@@ -190,7 +190,7 @@ function translateToPersian() {
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_9_subject')
-        a.innerText = 'کلاس آنلاین حل تمرین'
+        a.innerText = 'توابع و بازگشتی'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_9_instructors')
@@ -202,7 +202,7 @@ function translateToPersian() {
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_10_subject')
-        a.innerText = 'حل تمرین های سری دوم'
+        a.innerText = 'حل تمرین های سری دوم - توابع و بازگشتی'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_10_instructors')
@@ -214,7 +214,7 @@ function translateToPersian() {
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_11_subject')
-        a.innerText = 'کلاس آنلاین '
+        a.innerText = 'بازگشتی و درخت فراخوانی '
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_11_instructors')
@@ -238,7 +238,7 @@ function translateToPersian() {
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_13_subject')
-        a.innerText = 'حل تمرین های سری سوم (آنلاین)'
+        a.innerText = 'حل تمرین های سری سوم - کلکسیون ها'
         a.style.fontFamily = 'IranYekan'
 
         var a = document.getElementById('sl_13_instructors')
@@ -806,7 +806,7 @@ function translateToEnglish() {
         a.innerText = '2021-10-29'
 
         var a = document.getElementById('sl_6_subject')
-        a.innerText = 'ّSolve Exercise Number One'
+        a.innerText = 'ّSolve Exercise Number One (Control Sturctures)'
 
         var a = document.getElementById('sl_6_instructors')
         a.innerText = 'Faeze Rahmati / Amir Saberhabibi / Kiyan Rezaee'
@@ -833,7 +833,7 @@ function translateToEnglish() {
         a.innerText = '2021-11-13'
 
         var a = document.getElementById('sl_9_subject')
-        a.innerText = 'ّOnline Class'
+        a.innerText = 'ّFunctions and Recursion'
 
         var a = document.getElementById('sl_9_instructors')
         a.innerText = 'Erfan Moharamzade / Mehrshad dadashzade / Kiyan rezaee'
@@ -851,7 +851,7 @@ function translateToEnglish() {
         a.innerText = '2021-11-20'
 
         var a = document.getElementById('sl_11_subject')
-        a.innerText = 'ّOnline Class'
+        a.innerText = 'ّRecursion'
 
         var a = document.getElementById('sl_11_instructors')
         a.innerText = 'Kiyan Rezaee'
@@ -869,7 +869,7 @@ function translateToEnglish() {
         a.innerText = '2021-12-9'
 
         var a = document.getElementById('sl_13_subject')
-        a.innerText = 'Solve Exercise Number Three'
+        a.innerText = 'Solve Exercise Number Three (Collections)'
 
         var a = document.getElementById('sl_13_instructors')
         a.innerText = 'Amir Asqari / Morteza Ziabakhsh / Kiyan Rezaee'
