@@ -1,14 +1,6 @@
 isPersian = false;
 
 function translateToPersian() {
-    var a = document.getElementById('per')
-    a.classList.add('persian')
-    a.innerHTML = 'فارسی'
-    a.style.fontFamily = 'IranYekan'
-    var a = document.getElementById('en')
-    a.classList.add('persian')
-    a.style.fontFamily = 'IranYekan'
-    a.innerHTML = 'انگلیسی'
     //header
     var a = document.getElementById('1')
     a.classList.add('persian')
@@ -652,14 +644,7 @@ function translateToPersian() {
 }
 
 function translateToEnglish() {
-    var a = document.getElementById('per')
-    a.classList.remove('persian')
-    a.style.fontFamily = "Comic Sans MS"
-    a.innerHTML = 'Persian'
-    var a = document.getElementById('en')
-    a.classList.remove('persian')
-    a.style.fontFamily = "Comic Sans MS"
-    a.innerHTML = 'English'
+    
     //header
     var a = document.getElementById('1')
     a.classList.remove('persian')
