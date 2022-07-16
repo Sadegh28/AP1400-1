@@ -2,11 +2,12 @@
 <html lang="en">
 
 <head>
-    <title id="title-project">Teaching Assistants Team</title>
+    <title id="title-project">loading...</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="../styles/final.css">
+    <script src="../script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -15,60 +16,51 @@
 </head>
 
 <body>
-    <h2 class="cursive-font" style="text-align: center;margin-top: 2em;font-size:calc(8px + 0.5vw + 0.5vh);">
-        Advance Programming - Spring 2022
-        <br>
-        Guilan University - Faculty of Mathematics
-      </h2>
+    <h2 class="cursive-font" id="1" style="text-align: center;margin-top: 2em;font-size:calc(12px + 0.5vw + 0.5vh);">
+    </h2>
+    <div class="text-center">
+        <div class="btn-group" role="group">
+            <button type="button" id="en" onclick="translateToEnglish()" class="btn-lang"></button>
+            <button type="button" id="per" onclick="translateToPersian()" class="btn-lang"></button>
+        </div>
+    </div>
     <hr>
     <div class="bg container">
-        <h1 class="header" id="1000">Projects</h1>
+        <h1 class="header" id="1000"></h1>
         <div class="bg-imp" id="notes_">
-            <h2 style="font-weight: bold;font-size:calc(14px + 0.5vw + 0.5vh);" id="notes">NOTES</h2>
+            <h2 style="font-weight: bold;font-size:calc(14px + 0.5vw + 0.5vh);" id="notes"></h2>
             <ol>
-                <li id="1001">You should use Object-Oriented programming in your project and the application program interfaces (API) will be taken.
+                <li id="1001">
                 </li>
-                <li id="1002">You're not limited to taught topics for your project, You can use them only if you know them well.
+                <li id="1002">
                 </li>
-                <li id="1003">Prepare an explanation file for your project (no need to explain every line).
+                <li id="1003">
                 </li>
-                <li id="1004">You'll have to design a graphical user interface (GUI) for your project.
+                <li id="1004">
                 </li>
-                <li id="1005">In case we find out that you copied your project your score will be 0. Copied projects are clear as a sun!
+                <li id="1005">
                 </li>
             </ol>
         </div>
 
         <div class="row">
-
-            <div class="col-sm-4">
-                <div class="card img">
-                    <img class="card-img-top" src="../images/images.jpg" alt="Project1">
-                    <div class="card-body">
-                        <h5 class="card-title" id="1006">Mini Project</h5>
-                        <p class="card-text" id="1007">Vector and String</p>
-                        <a href="https://drive.google.com/file/d/1U9EWaMQyCLH59EjevLMu83ieytlYoUEC/view" class="btn btn-primary" id="1008">More information</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-sm-4">
+            <div class="col-sm-6">
                 <div class="card img">
                     <img class="card-img-top" src="../images/project1.jpg" alt="Project1">
                     <div class="card-body">
-                        <h5 class="card-title" id="1006">Project One</h5>
-                        <p class="card-text" id="1007">Online shop</p>
-                        <a href="../Files/Online Shop.pdf" class="btn btn-primary" id="1008">More information</a>
+                        <h5 class="card-title" id="1006"></h5>
+                        <p class="card-text" id="1007"></p>
+                        <a href="../Files/Online Shop.pdf" class="btn btn-primary" id="1008"></a>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-6">
                 <div class="card img">
                     <img class="card-img-top" src="../images/rsz_project2.jpg" alt="Project2"> 
                     <div class="card-body">
-                        <h5 class="card-title" id="1009">Project two</h5>
-                        <p class="card-text" id="1010">Gravity Ninja</p>
-                        <a href="../Files/Gravity Ninja.pdf" class="btn btn-primary" id="1011">More information</a>
+                        <h5 class="card-title" id="1009"></h5>
+                        <p class="card-text" id="1010"></p>
+                        <a href="../Files/Gravity Ninja.pdf" class="btn btn-primary" id="1011"></a>
                     </div>
                 </div>
             </div>
